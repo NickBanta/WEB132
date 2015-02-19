@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<!-- Author: Nicholas J. Banta
+	 Date: 26 Nov 2014
+     Version: 1.0 
+-->
+<meta charset="UTF-8">
+<title>Surf City Tackle Box</title>
+<link href="surfcity.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+<style>
+
+#quote1a {
+	display: none;
+}
+
+#quote2a {
+	display:none;
+}
+
+#quote3a {
+	display: none;
+}
+</style>
+
+<script>
+//show/hide quotes by clicking on quote title
+$(document).ready(function() {
+  $('#quote1').click(function() {
+	 $('#quote1a').slideToggle(300);
+	 $(this).toggleClass('close'); 
+  }); // end click
+}); // end ready
+
+$(document).ready(function() {
+  $('#quote2').click(function() {
+	 $('#quote2a').slideToggle(300);
+	 $(this).toggleClass('close'); 
+  }); // end click
+}); // end ready
+
+$(document).ready(function() {
+  $('#quote3').click(function() {
+	 $('#quote3a').slideToggle(300);
+	 $(this).toggleClass('close'); 
+  }); // end click
+}); // end ready
+</script>
+</head>
+
+<body>
+	<header>
+    	Surf City Tackle Box
+        <nav>
+        	<ul>
+            	<li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="main">
+    	<article>
+        	<h1>Welcome</h1>
+            	<p>Our goal at Surf City Tackle Box is to make your day at the beach exactly what you intended it to be, worry-free. We will deliver all your beach needs and desires right to your sandy spot on the coast.</p>
+                <img src="feet.jpg" alt="feet at the beach" id="beachfeet">
+        </article>
+        
+        <article>
+        	<h2><a href="reviews.html">Customer Reviews</a></h2>
+            	<ul>
+                	<li class="review"  id="quote1"><strong>Fastest Service Around &#9733;&#9733;&#9733;&#9733;&#9734;</strong>
+                    	<blockquote id="quote1a">SCO saved our day at the beach in record time!</blockquote>
+                    </li>
+                    <li class="review" id="quote2"><strong>BRAVO! &#9733;&#9733;&#9733;&#9734;&#9734;</strong>
+                    	<blockquote id="quote2a">What a great idea. We never even had to leave the beach house.</blockquote>
+                    </li>
+                    <li class="review" id="quote3"><strong>Wish this was everywhere &#9733;&#9733;&#9733;&#9733;&#9733;</strong>
+                    	<blockquote id="quote3a">We had some fishing tackle delivered, only to realize we were out of ice, little did we know when the Surf City TB truck arrived they had thought of everything. They had ice!</blockquote>
+                    </li>
+                </ul>
+        </article>
+        
+        <article>
+        	<h2 id="story">Featured Fish Story</h2>
+            	<p>Every week we will publish a new local Fish Story. Please submit your fish story via email. If you are selected as the weekly Fish Story we will give you a free $50 gift card to SC Tackle Box.</p>
+        </article>    
+    </section>
+    
+    <section id="right">
+    	<h2><a href="events.html">This Weeks Events</a></h2>
+        <p>There are no new events for this week.</p>
+    </section>
+    
+    <footer>
+    	 <address>
+    		Surf City Outfitters &bull;
+        	(910)396-3040 &bull;
+        	Surf City, NC &bull;
+        	Please feel free to ask any questions at <a href="mailto:questions@sco.com">questions@sco.com</a>
+        </address>
+    </footer>
+</body>
+</html>

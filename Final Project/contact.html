@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<!-- Author: Nicholas J. Banta
+	 Date: 26 Nov 2014
+     Version: 1.0 
+-->
+<meta charset="UTF-8">
+<title>Contact For More Information</title>
+< script src="formsubmit.js"></script>
+<link href="surfcity.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+	<header>
+    	Surf City Tackle Box
+        <nav>
+        	<ul>
+            	<li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+    	<article>
+        	<h1>Contact Us</h1>
+            	<form id="contact" name="contact" action="http://www.sco.com/cgi-bin/survey" method="post">
+                	<fieldset id="customerInfo">
+                    	<legend>Customer Info</legend>
+                        
+                        <label for="custname">Name *</label>
+                        <input name="custname" id="custname" />
+                	
+                    	<label for="street">Street Address</label>
+                        <input name="street" id="street" />
+                        
+                        <label for="city">City</label>
+                        <input name="city" id="city" />
+                        
+                        <label for="state">State</label>
+                        <input name="state" id="state" />
+                        
+                        <label for="zip">Zip Code</label>
+                        <input name="zip" id="zip" />
+                        
+                        <label for="phone">Phone Number</label>
+                        <input name="phone" id="phone" />
+                        
+                        <label for="email">Email *</label>
+                        <input name="email" id="email" />
+                        
+                        <label for="referral">Where Did You Hear About Us?</label>
+                        <select name="referral" id="referral">
+                        	<option value="type1">Radio</option>
+                            <option value="type2">Billboard</option>
+                            <option value="type3">Beachside Flyby</option>
+                            <option value="type4">Saw the Truck</option>
+                        </select>
+                        
+                        <label>Would you like to be notified when Online Orders are available?</label>
+     
+                        	<label for="yes">Yes</label>
+                            <input type="radio" name="onlineOrders" id="yes" value="true" />
+                            
+                            <label for="no">No</label>
+                            <input type="radio" name="onlineOrders" id="no" value="false" /><br>
+                            
+                            <label>What products are you most interested in?</label><br>
+                            <input type="checkbox" name="beer" value="beer"> Beer<br>
+  							<input type="checkbox" name="fish" value="fish"> Fishing Supplies<br>
+                            <input type="checkbox" name="tan" value="tan"> Tanning Supplies<br>
+ 						    <input type="checkbox" name="whatever" value="whatever"> Anything I may have forgotten<br>
+                            
+                            <p>
+                            	<input type="submit" value="Submit" />
+                                <input type="reset" value="Cancel" />
+                    </fieldset>
+                    
+                  
+                        
+                        
+                </form>
+            
+        
+        <article>
+        	<h2>Come Visit</h2>
+            <a href="https://www.google.com/maps/@34.4278739,-77.5555402,13z">
+            	<img src="map.jpg" alt="We are Here" id="map" /></a>
+        </article>
+        
+        <article>
+        	<h2>Featured Fish Story</h2>
+        </article>    
+    </section>
+    
+    <aside>
+    	Events
+    </aside>
+    
+    <footer>
+    	Surf City Outfitters &bull;
+        (910)396-3040 &bull;
+        Surf City, NC
+    </footer>
+</body>
+</html>

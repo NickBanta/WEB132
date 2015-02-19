@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background-color: rgb(231, 227, 215);
+}
+
+
+body {
+   background-color: rgb(151, 234, 244);
+   float: none;
+   margin: 0px auto;
+   width: 90%;
+}
+
+
+header {
+	background-color: rgb(255, 134, 66);
+	text-align: center;
+	font-size: 1.875em;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	border: 2px solid rgb(0, 121, 150);
+	height: 10%;
+	margin: 0.5%;
+	
+	-moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+
+fieldset {
+	background-color: rgba(165,165,165,1.00);
+	border: 2px solid rgb(0, 121, 150);
+	float: left;
+	width: 95%;
+	margin: 1%;
+	font-family: Tahoma, Geneva, sans-serif;
+
+}
+
+legend {
+	background-color: rgb(255, 134, 66);
+	width: 100%;
+	float: left;
+	
+}
+
+header nav {
+	-moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+
+nav li {
+	background-color: rgb(0, 121, 150);
+	float: left;
+	margin: 0px 0.5% 0px 0.5%;
+	height: 1.875em;
+	width: 18%;
+	text-align: center;
+	list-style-type: none;
+	font-size: 0.75em;
+	border: 1px solid black;
+	display: block;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	-moz-border-radious: 1.5%;
+	-webkit-border-radius: 1.5%;
+	-border-radius: 1.5%;
+	
+	
+}
+
+nav li a {
+	color: rgb(255, 134, 66);
+	text-decoration: none;
+}
+
+#beachfeet {
+	width: 20%;
+	height: auto;
+	float: right;
+}
+
+table.gear {
+	color: rgb(255, 134, 66);
+	font-size: 1.5em;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+table.events {
+	font-family: Tahoma, Geneva, sans-serif;
+	border: 1.5% outset rgb(6, 194, 244);
+	margin: 1.5%;
+}
+	
+table.events th { 
+	color: rgb(255, 134, 66);
+	background-color: rgba(133,133,133,1.00);
+}
+
+table.events td {
+	background-color: rgba(151, 234, 244, 0.6);
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+	color: rgb(0, 121, 150);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: rgb(0, 121, 150);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+article {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+article a {
+	color: black;
+	text-decoration: none;
+}
+
+article a:hover {
+	text-decoration: underline;
+}
+
+h2 a {
+	color: rgb(0, 121, 150);
+	text-decoration: none;
+}
+
+section#center {
+	margin-left: 5%;
+	width: 90%;
+	text-align: center;
+	background-color: white;
+}
+
+section#main {
+   clear: left;
+   width: 70%;
+   float: left;
+   margin: 5px;
+   padding: 5px;
+   background-color: white;
+}
+section#right {
+	float: left;
+	width: 20%;
+	margin: 25px;
+   padding: 5px;
+	background-color: white;
+}
+
+section#right h2 a {
+	color: rgb(0, 121, 150);
+	text-decoration: none;
+}
+
+#umbrella {
+	width: 90%;
+}
+
+#fishing {
+	width: 90%;
+}
+
+#snorkel {
+	width: 90%;
+}
+
+#map {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+footer {
+	clear: both;
+	text-align: center;
+	width: 736px;
+	height: 65px;   /* Height of the footer */
+	margin: 5px;
+}
+
+@media all and (min-width: 470px) {
+nav {
+	width: 100%;
+	float: none;
+	font-size: 0.9em;
+	padding: none;
+}
+
+section#main {
+   clear: left;
+   width: 90%;
+   float: left;
+   margin-left: 4%;
+   margin-right: 4%;
+   padding: 0.5%;
+   background-color: grey;
+}
+
+#beachfeet {
+	margin-left:5%;
+	margin-right: 5%;
+	width: 90%;
+	height: auto;
+	float: left;
+}
+
+#right {
+	display: none;
+	float: none;
+	margin: 100%;
+}
+
+
+address {
+	text-align: left;
+	font-size: 0.5em;
+}
+}
+
+@media all and (min-width: 600px) {
+nav {
+	font-size: 1em;
+	margin: 2.5%;
+}
+
+section#main {
+   clear: left;
+   width: 90%;
+   float: left;
+   margin-left: 4%;
+   margin-right: 4%;
+   padding: 0.5%;
+   background-color: white;
+}
+
+section#right {
+	float: right;
+	width: 90%;
+	margin: 25px;
+   padding: 5px;
+	background-color: white;
+}
+
+#beachfeet {
+	width: 50%%;
+	height: auto;
+	float: right;
+}	
+
+#right {
+	display: block;
+
+}
+
+@media all and (min-width: 1000px) {
+#beachfeet {
+	width: 20%;
+	height: auto;
+	float: right;
+}	
+
+section#main {
+   clear: left;
+   width: 70%;
+   float: left;
+   margin-left: 2%;
+   margin-right: 2%;
+   padding: 0.5%;
+   background-color: white;
+}
+
+
+section#right {
+	float: left;
+	width: 20%;
+	margin: 2%;
+   padding: 0.5%;
+	background-color: white;
+}
+}
+	
